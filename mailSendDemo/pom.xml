@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ace.co.javaMAilDemo</groupId>
+  <artifactId>mailSendDemo</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+<!-- <dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>mail</artifactId>
+    <version>1.4</version>
+</dependency> -->
+<!-- https://mvnrepository.com/artifact/com.sun.mail/smtp -->
+<!-- <dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>smtp</artifactId>
+    <version>1.4.5</version>
+</dependency> -->
+
+ <!-- https://mvnrepository.com/artifact/com.sun.mail/javax.mail -->
+<dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context-support -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context-support</artifactId>
+    <version>3.2.0.RELEASE</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-mail</artifactId>
+    <version>2.1.6.RELEASE</version>
+</dependency>
+
+<!-- <dependency>
+    <groupId>org.apache.velocity</groupId>
+    <artifactId>velocity</artifactId>
+    <version>1.7</version>
+    </dependency> -->
+<dependency>
+     <groupId>org.apache.velocity</groupId>
+     <artifactId>velocity-tools</artifactId>
+     <version>2.0</version>
+</dependency>
+  </dependencies>
+</project>
